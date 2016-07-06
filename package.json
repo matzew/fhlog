@@ -1,6 +1,6 @@
 {
   "name": "fhlog",
-  "version": "0.12.1",
+  "version": "0.13.0",
   "description": "Simple and flexible logger for the browser and Node.js",
   "scripts": {
     "format": "FHLOG_FILES=`find ./lib -type f -name '*.js' | xargs` && linelint $FHLOG_FILES && lintspaces -nt -i js-comments -d spaces -s 2 $FHLOG_FILES && jshint $FHLOG_FILES",
@@ -10,7 +10,7 @@
   },
   "main": "./lib/LoggerFactory.js",
   "author": "Evan Shortiss",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "brfs": "~1.2.0",
     "browserify": "~4.1.8",
