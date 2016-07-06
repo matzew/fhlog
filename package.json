@@ -21,7 +21,7 @@
     "karma-mocha": "^0.1.4",
     "karma-mocha-reporter": "^0.2.7",
     "linelint": "0.0.3",
-    "lintspaces-cli": "0.0.3",
+    "lintspaces-cli": "0.4.0",
     "mocha": "~1.20.1"
   },
   "browserify": {
